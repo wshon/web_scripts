@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Ame Helper
 // @name:en Ame Helper
-// @name:zh-CN 阿米加助手
+// @name:zh-cn 阿米加助手
 // @namespace Violentmonkey Scripts
 // @include https://ame.primeton.com/*
 // @run-at document-end
@@ -10,7 +10,7 @@
 // @author wshon
 // @description Ame Helper
 // @description:en Ame Helper
-// @description:zh-CN 阿米加助手
+// @description:zh-cn 阿米加助手
 // ==/UserScript==
 
 
