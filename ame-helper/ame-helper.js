@@ -1,12 +1,16 @@
 // ==UserScript==
-// @name        阿米加助手
-// @namespace   Violentmonkey Scripts
-// @include     https://ame.primeton.com/*
-// @run-at      document-end
-// @grant       none
-// @version     1.1
-// @author      wshon
-// @description 增加工时页面设置默认值8小时
+// @name Ame Helper
+// @name:en Ame Helper
+// @name:zh-CN 阿米加助手
+// @namespace Violentmonkey Scripts
+// @include https://ame.primeton.com/*
+// @run-at document-end
+// @grant none
+// @version 1.1
+// @author wshon
+// @description Ame Helper
+// @description:en Ame Helper
+// @description:zh-CN 阿米加助手
 // ==/UserScript==
 
 
