@@ -8,7 +8,7 @@
 // @grant       none
 // @version     1.1
 // @author      wshon
-// @description 
+// @description 增加工时页面设置默认值8小时
 // ==/UserScript==
 
 
