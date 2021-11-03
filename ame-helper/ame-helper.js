@@ -1,11 +1,14 @@
 // ==UserScript==
-// @name        阿米加助手
+// @name        Ame Helper
+// @name:en     Ame Helper
+// @name:zh-CN  阿米加助手
 // @namespace   Violentmonkey Scripts
 // @include     https://ame.primeton.com/*
+// @run-at      document-end
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      wshon
-// @description 2020/4/14 上午9:49:57
+// @description 
 // ==/UserScript==
 
 
@@ -24,8 +27,6 @@
       })
     },
     '/default/labor/returnToWork/queryEmpReturns.jsp' : function (){
-      console.debug("aaa");
-      document.title = "复工日报查询";
       $('<a class="nui-button" id="dailReturn" iconCls="icon-add" href="https://ame.primeton.com/default/labor/returnToWork/dailReturn.jsp">复工情况填报</a>').insertAfter("#export");
       $('<span>&nbsp;</span>').insertAfter("#export");
     },
@@ -40,6 +41,9 @@
     '/default/ame/clipview/index.jsp' : function (){
       window.returnCitySN = {"cip": "117.131.11.98", "cid": "310000", "cname": "上海市"};
       console.log("set returnCitySN", window.returnCitySN);
+    },
+    '/default/ame_common/wxworktime/addworktime.jsp' : function (){
+      app.acthours = 8.0;
     }
   }
   var func = siteFunctions[location.pathname];
