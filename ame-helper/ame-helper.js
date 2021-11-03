@@ -8,9 +8,9 @@
 // @grant none
 // @version 1.1
 // @author wshon
-// @description Ame Helper
-// @description:en Ame Helper
-// @description:zh-cn 阿米加助手
+// @description Some optimize for Ame+ system
+// @description:en Some optimize for Ame+ system
+// @description:zh-cn 对阿米加系统进行一些优化
 // ==/UserScript==
 
 
